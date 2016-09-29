@@ -1,0 +1,19 @@
+.body{
+  @include outer-container;
+  border: 1px solid green;
+  .nav{
+    @include span-columns(12);
+  }
+  .subHeader{
+    @include span-columns(12);
+    border: 1px solid blue;
+  }
+  .work{
+    @include span-columns(12);
+    border: 1px solid orange;
+  }
+  .footer{
+    @include span-columns(12);
+    border: 1px solid yellow;
+  }
+}
