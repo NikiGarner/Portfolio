@@ -55,57 +55,47 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.body {
+body {
   max-width: 1200px;
   margin-left: auto;
-  margin-right: auto;
-  border: 1px solid green; }
-  .body::after {
+  margin-right: auto; }
+  body::after {
     clear: both;
     content: "";
     display: table; }
-  .body .nav {
+  body .nav {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    .body .nav:last-child {
+    body .nav:last-child {
       margin-right: 0; }
-  .body .subHeader {
+  body .subHeader {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%;
-    border: 1px solid blue; }
-    .body .subHeader:last-child {
+    width: 100%; }
+    body .subHeader:last-child {
       margin-right: 0; }
-  .body .work {
+  body .work {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%;
-    border: 1px solid orange; }
-    .body .work:last-child {
+    width: 100%; }
+    body .work:last-child {
       margin-right: 0; }
-  .body .footer {
+  body .footer {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%;
-    border: 1px solid yellow; }
-    .body .footer:last-child {
+    width: 100%; }
+    body .footer:last-child {
       margin-right: 0; }
 
 .nav {
   background: #889393;
-  font-family: "Roboto Slab", serif; }
-  .nav .logo {
-    background: #C96F4D;
-    border-radius: 50px;
-    display: block;
-    height: 45px;
-    width: 45px;
-    margin: 1em 1em; }
+  font-family: "Roboto Slab", serif;
+  font-weight: 100; }
   .nav ul {
     display: flex;
     justify-content: flex-end;
@@ -121,7 +111,18 @@ table {
       .nav ul a:hover {
         background: #C96F4D; }
 
-.body {
+.subHeader {
+  margin: 2em; }
+
+#name {
+  font-family: "Stint Ultra Expanded", cursive;
+  font-size: 5em; }
+
+#profession {
+  font-family: "Pontano Sans", sans-serif;
+  font-size: 3em; }
+
+body {
   background: #AFC4D9; }
 
 /*# sourceMappingURL=styles.css.map */

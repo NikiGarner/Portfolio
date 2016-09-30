@@ -1,3 +1,15 @@
 @import "footer";
 @import "grid";
 @import "header";
+
+.subHeader{
+  margin: 2em;
+}
+#name {
+  font-family: $stint;
+  font-size: 5em;
+}
+#profession {
+  font-family: $pontano;
+  font-size: 3em;
+}

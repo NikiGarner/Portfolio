@@ -1,14 +1,15 @@
 .nav {
   background: $nav;
   font-family: $roboto-slab;
-  .logo {
-    background: $orange;
-    border-radius: 50px;
-    display: block;
-    height: 45px;
-    width: 45px;
-    margin: 1em 1em;
-  }
+  font-weight: 100;
+  // .logo {
+  //   background: $orange;
+  //   border-radius: 50px;
+  //   display: block;
+  //   height: 45px;
+  //   width: 45px;
+  //   margin: 1em 1em;
+  // }
   ul {
     display: flex;
     justify-content: flex-end;
