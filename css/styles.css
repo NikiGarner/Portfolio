@@ -193,9 +193,9 @@ table {
 #niki {
   position: absolute;
   border-radius: 50%;
-  z-index: 5;
-  margin-left: 900px;
-  top: 300px;
+  z-index: 10;
+  margin-left: 800px;
+  bottom: 2px;
   /**ADD Media query**/ }
 
 .box {
