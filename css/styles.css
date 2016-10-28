@@ -66,14 +66,15 @@ table {
   justify-content: center;
   -webkit-justify-content: center;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 100px; }
 
 .projects .item {
   background-image: url("https://images.unsplash.com/photo-1431578500526-4d9613015464?q=80&fm=jpg&s=169b4f4e6f3882a03b6b93b2e6848052");
   background-size: cover;
   background-position: center center;
-  min-height: 400px;
-  min-width: 400px;
+  min-height: 200px;
+  min-width: 200px;
   margin: 10px; }
 
 .item-info {
@@ -88,8 +89,8 @@ table {
   -webkit-justify-content: center;
   align-items: center;
   -webkit-align-items: center;
-  min-width: 400px;
-  min-height: 400px; }
+  min-width: 200px;
+  min-height: 200px; }
 
 .item-info h2 {
   font-family: "Roboto Slab", serif;
@@ -128,7 +129,7 @@ table {
   background: cover;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px; }
+  height: 540px; }
 
 #name {
   font-family: "Stint Ultra Expanded", cursive;
@@ -141,11 +142,19 @@ table {
 #niki {
   position: absolute;
   border-radius: 50%;
-  border: 4px dotted #C96F4D;
   z-index: 5;
   margin-left: 900px;
   top: 300px;
   /**ADD Media query**/ }
+
+.box {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  border: 130px solid #C96F4D;
+  top: 400px;
+  margin-left: 0;
+  padding-left: 0; }
 
 body {
   background: #AFC4D9; }

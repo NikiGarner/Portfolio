@@ -8,7 +8,7 @@
   background: cover;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 540px;
 }
 #name {
   font-family: $stint;
@@ -21,9 +21,19 @@
 #niki {
   position: absolute;
   border-radius: 50%;
-  border: 4px dotted $orange;
+  // border: 4px dotted $orange;
   z-index: 5;
   margin-left: 900px;
   top: 300px;
   /**ADD Media query**/
+}
+
+.box {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  border: 130px solid $orange;
+  top: 400px;
+  margin-left: 0;
+  padding-left: 0;
 }
