@@ -3,7 +3,11 @@
 @import "header";
 
 .subHeader{
-  margin: 2em;
+  padding: 2em;
+  background-image: url('../img/grid.png');
+  background: contain;
+  background-size: contain;
+  height: 480px;
 }
 #name {
   font-family: $stint;
@@ -12,4 +16,11 @@
 #profession {
   font-family: $pontano;
   font-size: 3em;
+}
+#niki {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 5;
+  margin-left: 550px;
+  top: 255px;
 }
