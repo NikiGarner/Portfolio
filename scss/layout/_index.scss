@@ -5,9 +5,10 @@
 .subHeader{
   padding: 2em;
   background-image: url('../img/grid.png');
-  background: contain;
-  background-size: contain;
-  height: 480px;
+  background: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
 }
 #name {
   font-family: $stint;
@@ -20,7 +21,9 @@
 #niki {
   position: absolute;
   border-radius: 50%;
+  border: 4px dotted $orange;
   z-index: 5;
-  margin-left: 550px;
-  top: 255px;
+  margin-left: 900px;
+  top: 300px;
+  /**ADD Media query**/
 }
