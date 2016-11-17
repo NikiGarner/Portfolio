@@ -2,38 +2,36 @@
 @import "grid";
 @import "header";
 
+body {
+  font-family: $pontano;
+}
+
 .subHeader{
-  padding: 2em;
-  background-image: url('../img/grid.png');
-  background: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 540px;
+  height: 300px;
 }
 #name {
+  padding-left: 1.25em;
   font-family: $stint;
   font-size: 5em;
+  color: $orange;
 }
 #profession {
+  padding-left: 2em;
   font-family: $pontano;
   font-size: 3em;
+  color: #fff;
 }
 #niki {
-  position: absolute;
+  padding-left: 2em;
+  position: relative;
   border-radius: 50%;
-  // border: 4px dotted $orange;
-  z-index: 10;
   margin-left: 800px;
   bottom: 2px;
   /**ADD Media query**/
 }
 
 .box {
-  position: absolute;
-  height: 200px;
   width: 100%;
-  border: 130px solid $orange;
-  top: 400px;
   margin-left: 0;
   padding-left: 0;
 }

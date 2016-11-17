@@ -106,6 +106,14 @@ table {
 .close:hover {
   background: #00d9ff; }
 
+.texture {
+  height: 5em;
+  width: 100%; }
+  .texture .texture-normal {
+    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/graphy.png"), linear-gradient(180deg, #ca7251, #ae5635), center no-repeat #ca7251 scroll;
+    height: 150px;
+    width: 100%; }
+
 /* PORTFOLIO GRID */
 .projects {
   display: flex;
@@ -144,13 +152,13 @@ table {
   min-height: 200px; }
 
 .item-info h2 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Pontano Sans", sans-serif;
   font-weight: 900;
   color: #ffffff; }
 
 .item-info span {
   color: #cfcfcf;
-  font-family: "Roboto Slab", serif;
+  font-family: "Pontano Sans", sans-serif;
   font-style: italic;
   font-size: 0.9em;
   padding-top: 5px; }
@@ -174,36 +182,34 @@ table {
       .nav ul a:hover {
         background: #C96F4D; }
 
+body {
+  font-family: "Pontano Sans", sans-serif; }
+
 .subHeader {
-  padding: 2em;
-  background-image: url("../img/grid.png");
-  background: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 540px; }
+  height: 300px; }
 
 #name {
+  padding-left: 1.25em;
   font-family: "Stint Ultra Expanded", cursive;
-  font-size: 5em; }
+  font-size: 5em;
+  color: #C96F4D; }
 
 #profession {
+  padding-left: 2em;
   font-family: "Pontano Sans", sans-serif;
-  font-size: 3em; }
+  font-size: 3em;
+  color: #fff; }
 
 #niki {
-  position: absolute;
+  padding-left: 2em;
+  position: relative;
   border-radius: 50%;
-  z-index: 10;
   margin-left: 800px;
   bottom: 2px;
   /**ADD Media query**/ }
 
 .box {
-  position: absolute;
-  height: 200px;
   width: 100%;
-  border: 130px solid #C96F4D;
-  top: 400px;
   margin-left: 0;
   padding-left: 0; }
 
