@@ -9,39 +9,28 @@
   padding: 2em 0;
 }
 
-.projects .item{
-  background-image:url('https://images.unsplash.com/photo-1431578500526-4d9613015464?q=80&fm=jpg&s=169b4f4e6f3882a03b6b93b2e6848052');
-  background-size:cover;
-  background-position:center center;
-  min-height:200px;
-  min-width:200px;
-  margin: 10px;
-}
-
-.item-info{
-  background:rgba(0,0,0,0.6);
+.itemBox{
   display: flex; display: -webkit-flex;
   flex-direction: column; -webkit-flex-direction: column;
   flex-wrap: wrap; -webkit-flex-wrap: wrap;
   justify-content: center; -webkit-justify-content: center;
   align-items: center; -webkit-align-items: center;
-  min-width:200px;
+  background-image:url('https://images.unsplash.com/photo-1431578500526-4d9613015464?q=80&fm=jpg&s=169b4f4e6f3882a03b6b93b2e6848052');
+  background-size:cover;
+  background-position:center center;
   min-height:200px;
+  min-width:200px;
+}
+.item {
+    font-family: $pontano;
+    color:#000;
+    margin-top: 50px;
+    margin: 20px;
+}
+h2 {
+  padding-top: 10px;
 }
 
-.item-info h2{
-  font-family: $pontano;
-  font-weight:900;
-  color:#ffffff;
-}
-
-.item-info span{
-  color:#cfcfcf;
-  font-family:$pontano;
-  font-style:italic;
-  font-size:0.9em;
-  padding-top:5px;
-}
 
 .portfolio {
   background-color: $nav;
