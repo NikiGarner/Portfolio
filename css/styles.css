@@ -118,7 +118,7 @@ table {
   -webkit-justify-content: center;
   width: 100%;
   margin: 0 auto;
-  padding-top: 100px; }
+  padding: 2em 0; }
 
 .projects .item {
   background-image: url("https://images.unsplash.com/photo-1431578500526-4d9613015464?q=80&fm=jpg&s=169b4f4e6f3882a03b6b93b2e6848052");
@@ -154,6 +154,10 @@ table {
   font-style: italic;
   font-size: 0.9em;
   padding-top: 5px; }
+
+.portfolio {
+  background-color: #889393;
+  margin-top: 5em; }
 
 .nav {
   padding-right: 3em;
