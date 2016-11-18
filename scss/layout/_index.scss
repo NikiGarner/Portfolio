@@ -9,29 +9,51 @@ body {
 .subHeader{
   height: 300px;
 }
-#name {
-  padding-left: 1.25em;
-  font-family: $stint;
-  font-size: 5em;
-  color: $orange;
+.fullName {
+  padding: 35% 10% 0;
+  max-width: 100%;
+  text-align: center;
+  #name {
+    font-family: $stint;
+    font-size: 4em;
+    color: $orange;
+  }
+  #profession {
+    font-family: $pontano;
+    font-size: 2em;
+    color: #fff;
+  }
 }
-#profession {
-  padding-left: 2em;
-  font-family: $pontano;
-  font-size: 3em;
-  color: #fff;
+@media screen and (min-width: 500px){
+  .fullName {
+    padding: 25% 10% 0;
+  }
 }
-#niki {
-  padding-left: 2em;
-  position: relative;
-  border-radius: 50%;
-  margin-left: 800px;
-  bottom: 2px;
-  /**ADD Media query**/
+@media screen and (min-width: 750px){
+  .fullName {
+    padding: 20% 10% 0;
+    font-size: 125%;
+  }
+}
+@media screen and (min-width: 1150px){
+  .fullName {
+    padding: 15% 10% 0;
+    font-size: 150%;
+  }
 }
 
 .box {
+  height: 10em;
   width: 100%;
   margin-left: 0;
   padding-left: 0;
+  background-color: $orange;
+  display: flex;
+  flex-direction: column;
+  #niki {
+    justify-content: center;
+    align-self: center;
+    border-radius: 50%;
+    padding: 30px;
+  }
 }

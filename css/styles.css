@@ -106,14 +106,6 @@ table {
 .close:hover {
   background: #00d9ff; }
 
-.texture {
-  height: 5em;
-  width: 100%; }
-  .texture .texture-normal {
-    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/graphy.png"), linear-gradient(180deg, #ca7251, #ae5635), center no-repeat #ca7251 scroll;
-    height: 150px;
-    width: 100%; }
-
 /* PORTFOLIO GRID */
 .projects {
   display: flex;
@@ -164,6 +156,7 @@ table {
   padding-top: 5px; }
 
 .nav {
+  padding-right: 3em;
   background: #889393;
   font-family: "Roboto Slab", serif;
   font-weight: 100; }
@@ -188,30 +181,43 @@ body {
 .subHeader {
   height: 300px; }
 
-#name {
-  padding-left: 1.25em;
-  font-family: "Stint Ultra Expanded", cursive;
-  font-size: 5em;
-  color: #C96F4D; }
+.fullName {
+  padding: 35% 10% 0;
+  max-width: 100%;
+  text-align: center; }
+  .fullName #name {
+    font-family: "Stint Ultra Expanded", cursive;
+    font-size: 4em;
+    color: #C96F4D; }
+  .fullName #profession {
+    font-family: "Pontano Sans", sans-serif;
+    font-size: 2em;
+    color: #fff; }
 
-#profession {
-  padding-left: 2em;
-  font-family: "Pontano Sans", sans-serif;
-  font-size: 3em;
-  color: #fff; }
-
-#niki {
-  padding-left: 2em;
-  position: relative;
-  border-radius: 50%;
-  margin-left: 800px;
-  bottom: 2px;
-  /**ADD Media query**/ }
-
+@media screen and (min-width: 500px) {
+  .fullName {
+    padding: 25% 10% 0; } }
+@media screen and (min-width: 750px) {
+  .fullName {
+    padding: 20% 10% 0;
+    font-size: 125%; } }
+@media screen and (min-width: 1150px) {
+  .fullName {
+    padding: 15% 10% 0;
+    font-size: 150%; } }
 .box {
+  height: 10em;
   width: 100%;
   margin-left: 0;
-  padding-left: 0; }
+  padding-left: 0;
+  background-color: #C96F4D;
+  display: flex;
+  flex-direction: column; }
+  .box #niki {
+    justify-content: center;
+    align-self: center;
+    border-radius: 50%;
+    padding: 30px; }
 
 body {
   background: #AFC4D9; }
