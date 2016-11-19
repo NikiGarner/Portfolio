@@ -6,7 +6,7 @@
   justify-content: center; -webkit-justify-content: center;
   width:100%;
   margin:0 auto;
-  padding: 2em 0;
+  padding: 100px 0;
 }
 
 .itemBox{
@@ -34,5 +34,17 @@ h2 {
 
 .portfolio {
   background-color: $nav;
-  margin-top: 5em;
+  margin-top: 20px;
+}
+.divider {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  .logo {
+    align-self: center;
+    justify-content: center;
+    z-index: 10;
+    margin: 5px 0;
+    padding-top: 10px;
+  }
 }
