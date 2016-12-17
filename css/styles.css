@@ -145,7 +145,11 @@ body {
   .fullName #profession {
     font-family: "Pontano Sans", sans-serif;
     font-size: 2em;
-    color: #fff; }
+    color: #fff;
+    line-height: 70px; }
+    .fullName #profession em {
+      border-bottom: 3px dotted white;
+      padding-top: 2px; }
 
 @media screen and (min-width: 500px) {
   .fullName {

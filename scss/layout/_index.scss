@@ -19,6 +19,11 @@ body {
     font-family: $pontano;
     font-size: 2em;
     color: #fff;
+    line-height: 70px;
+    em {
+      border-bottom: 3px dotted white;
+      padding-top: 2px;
+    }
   }
 }
 @media screen and (min-width: 500px){
