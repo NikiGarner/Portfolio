@@ -67,7 +67,7 @@ table {
   -webkit-justify-content: center;
   width: 100%;
   margin: 0 auto;
-  padding: 100px 0; }
+  padding: 50px 0; }
 
 .itemBox {
   display: flex;
@@ -160,7 +160,7 @@ body {
     font-size: 125%; } }
 @media screen and (min-width: 1150px) {
   .fullName {
-    padding: 15% 10% 0;
+    padding: 10% 10% 0;
     font-size: 150%; } }
 .box {
   height: 10em;
@@ -175,6 +175,15 @@ body {
     align-self: center;
     border-radius: 50%;
     padding: 30px; }
+
+.section {
+  font-family: "Stint Ultra Expanded", cursive;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 1em;
+  border-bottom: 3px dotted white;
+  color: #fff; }
 
 body {
   background: #AFC4D9; }
