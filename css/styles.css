@@ -176,6 +176,9 @@ body {
     border-radius: 50%;
     padding: 30px; }
 
+.resume {
+  background-color: #AFC4D9; }
+
 .section {
   font-family: "Stint Ultra Expanded", cursive;
   font-size: 2em;
