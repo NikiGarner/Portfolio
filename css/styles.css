@@ -162,6 +162,10 @@ table {
   .item .list {
     font-size: 1.25em;
     padding-top: 20px; }
+  .item .github {
+    max-width: 50px;
+    float: right;
+    padding-top: 80px; }
 
 .portfolio {
   background-color: #889393;
