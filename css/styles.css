@@ -138,13 +138,30 @@ table {
   min-width: 200px; }
 
 .item {
-  font-family: "Pontano Sans", sans-serif;
-  color: #000;
   margin-top: 50px;
   margin: 20px; }
-
-h2 {
-  padding-top: 10px; }
+  .item .project {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    font-family: "Stint Ultra Expanded", cursive;
+    border-bottom: 2px dotted white;
+    text-align: center; }
+  .item .descript {
+    max-width: 50%;
+    padding-top: 20px;
+    float: left;
+    font-size: 1.25em;
+    margin-right: 50px; }
+  .item .skills {
+    padding-top: 20px;
+    max-width: 50%;
+    list-style: circle;
+    float: left;
+    margin-left: 20px; }
+  .item .list {
+    font-size: 1.25em;
+    padding-top: 20px; }
 
 .portfolio {
   background-color: #889393;
