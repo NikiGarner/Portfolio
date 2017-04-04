@@ -8,20 +8,6 @@
   margin:0 auto;
   padding: 50px 0;
 }
-
-.itemBox{
-  display: flex; display: -webkit-flex;
-  flex-direction: column; -webkit-flex-direction: column;
-  flex-wrap: wrap; -webkit-flex-wrap: wrap;
-  justify-content: center; -webkit-justify-content: center;
-  align-items: center; -webkit-align-items: center;
-  background-image:url('https://images.unsplash.com/photo-1431578500526-4d9613015464?q=80&fm=jpg&s=169b4f4e6f3882a03b6b93b2e6848052');
-  background-size:cover;
-  background-position:center center;
-  max-height:400px;
-  max-width:400px;
-  margin: 20px;
-}
 .itemBox1,
 .itemBox2,
 .itemBox3 {
@@ -29,15 +15,11 @@
   flex-direction: row;
   align-content: center;
   justify-content: center;
-  .projectImage {
-    min-width: 200px;
-    // max-height: 200px;
-  }
 }
 
 .item {
     margin-top: 50px;
-    margin: 20px;
+    margin: 50px;
     .project {
       padding-top: 20px;
       padding-bottom: 10px;
@@ -47,7 +29,7 @@
       text-align: center;
     }
     .descript {
-      max-width: 50%;
+      max-width: 300px;
       padding-top: 20px;
       float: left;
       font-size: 1.25em;
