@@ -84,7 +84,8 @@ table {
   background-size: cover;
   background-position: center center;
   max-height: 400px;
-  max-width: 400px; }
+  max-width: 400px;
+  margin: 20px; }
 
 .itemBox1,
 .itemBox2,
@@ -96,8 +97,7 @@ table {
   .itemBox1 .projectImage,
   .itemBox2 .projectImage,
   .itemBox3 .projectImage {
-    max-width: 600px;
-    max-height: 200px; }
+    min-width: 200px; }
 
 .item {
   margin-top: 50px;

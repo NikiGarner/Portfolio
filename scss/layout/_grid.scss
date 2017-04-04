@@ -20,6 +20,7 @@
   background-position:center center;
   max-height:400px;
   max-width:400px;
+  margin: 20px;
 }
 .itemBox1,
 .itemBox2,
@@ -29,8 +30,8 @@
   align-content: center;
   justify-content: center;
   .projectImage {
-    max-width: 600px;
-    max-height: 200px;
+    min-width: 200px;
+    // max-height: 200px;
   }
 }
 
