@@ -97,7 +97,7 @@ table {
       border-bottom: 2px dotted white;
       text-align: center; }
   .item .descript {
-    max-width: 300px;
+    max-width: 50%;
     padding-top: 20px;
     float: left;
     font-size: 1.25em;
