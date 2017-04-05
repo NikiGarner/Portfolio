@@ -131,6 +131,13 @@ table {
     margin: 5px 0;
     padding-top: 10px; }
 
+.accounts {
+  font-family: "Stint Ultra Expanded", cursive;
+  text-align: center;
+  padding: 20px; }
+  .accounts p {
+    padding: 20px; }
+
 .nav {
   padding-right: 3em;
   background: #889393;
