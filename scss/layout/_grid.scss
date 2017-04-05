@@ -23,13 +23,20 @@
 .item {
     margin-top: 50px;
     margin: 50px;
-    .project {
-      padding-top: 20px;
-      padding-bottom: 10px;
-      font-size: 1.5em;
-      font-family: $stint;
-      border-bottom: 2px dotted white;
-      text-align: center;
+    a {
+      text-decoration: none;
+      color: white;
+      &:hover {
+        color: $background;
+      }
+      .project {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 1.5em;
+        font-family: $stint;
+        border-bottom: 2px dotted white;
+        text-align: center;
+      }
     }
     .descript {
       max-width: 300px;

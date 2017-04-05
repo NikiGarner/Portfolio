@@ -84,13 +84,18 @@ table {
 .item {
   margin-top: 50px;
   margin: 50px; }
-  .item .project {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 1.5em;
-    font-family: "Stint Ultra Expanded", cursive;
-    border-bottom: 2px dotted white;
-    text-align: center; }
+  .item a {
+    text-decoration: none;
+    color: white; }
+    .item a:hover {
+      color: #AFC4D9; }
+    .item a .project {
+      padding-top: 20px;
+      padding-bottom: 10px;
+      font-size: 1.5em;
+      font-family: "Stint Ultra Expanded", cursive;
+      border-bottom: 2px dotted white;
+      text-align: center; }
   .item .descript {
     max-width: 300px;
     padding-top: 20px;
