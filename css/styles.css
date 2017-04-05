@@ -137,6 +137,23 @@ table {
   padding: 20px; }
   .accounts p {
     padding: 20px; }
+  .accounts a {
+    text-decoration: none;
+    color: white; }
+    .accounts a:hover {
+      color: #C96F4D; }
+
+.bio {
+  font-family: "Stint Ultra Expanded", cursive;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 100px; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px; }
 
 .nav {
   padding-right: 3em;
