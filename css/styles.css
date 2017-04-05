@@ -76,6 +76,10 @@ table {
   flex-direction: row;
   align-content: center;
   justify-content: center; }
+  .itemBox1:hover,
+  .itemBox2:hover,
+  .itemBox3:hover {
+    opacity: .4; }
 
 .item {
   margin-top: 50px;
