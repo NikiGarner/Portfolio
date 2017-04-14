@@ -71,19 +71,21 @@ table {
 
 .itemBox1,
 .itemBox2,
-.itemBox3 {
+.itemBox3,
+.itemBox4 {
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: center; }
   .itemBox1:hover,
   .itemBox2:hover,
-  .itemBox3:hover {
+  .itemBox3:hover,
+  .itemBox4:hover {
     opacity: .4; }
 
 .item {
-  margin-top: 50px;
-  margin: 50px; }
+  margin: 30px 80px;
+  max-width: 50%; }
   .item a {
     text-decoration: none;
     color: white; }
@@ -97,14 +99,14 @@ table {
       border-bottom: 2px dotted white;
       text-align: center; }
   .item .descript {
-    max-width: 50%;
+    max-width: 300px;
     padding-top: 20px;
     float: left;
     font-size: 1.25em;
     margin-right: 50px; }
   .item .skills {
     padding-top: 20px;
-    max-width: 50%;
+    max-width: 100px;
     list-style: circle;
     float: left;
     margin-left: 20px; }
