@@ -71,15 +71,21 @@ table {
 
 .itemBox1,
 .itemBox2,
-.itemBox3,
-.itemBox4 {
+.itemBox3 {
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: center; }
   .itemBox1:hover,
   .itemBox2:hover,
-  .itemBox3:hover,
+  .itemBox3:hover {
+    opacity: .4; }
+
+.itemBox4 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center; }
   .itemBox4:hover {
     opacity: .4; }
 
@@ -134,21 +140,24 @@ table {
     padding-top: 10px; }
 
 .accounts {
+  list-style-type: none;
   font-family: "Stint Ultra Expanded", cursive;
   text-align: center;
   padding: 20px; }
-  .accounts p {
-    padding: 20px; }
   .accounts a {
     text-decoration: none;
     color: white; }
     .accounts a:hover {
       color: #C96F4D; }
+  .accounts li {
+    display: inline;
+    padding: 20px; }
 
 .bio {
   font-family: "Stint Ultra Expanded", cursive;
   text-align: center;
   font-size: 1.5em;
+  margin: 0 250px;
   padding: 100px; }
 
 .footer {
