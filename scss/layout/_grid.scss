@@ -93,18 +93,20 @@
 }
 
 .accounts {
+  list-style-type: none;
   font-family: $stint;
   text-align: center;
   padding: 20px;
-  p {
-    padding: 20px;
-  }
   a {
     text-decoration: none;
     color: white;
     &:hover {
       color: $orange;
     }
+  }
+  li {
+    display: inline;
+    padding: 20px;
   }
 }
 .bio {

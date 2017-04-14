@@ -140,16 +140,18 @@ table {
     padding-top: 10px; }
 
 .accounts {
+  list-style-type: none;
   font-family: "Stint Ultra Expanded", cursive;
   text-align: center;
   padding: 20px; }
-  .accounts p {
-    padding: 20px; }
   .accounts a {
     text-decoration: none;
     color: white; }
     .accounts a:hover {
       color: #C96F4D; }
+  .accounts li {
+    display: inline;
+    padding: 20px; }
 
 .bio {
   font-family: "Stint Ultra Expanded", cursive;
