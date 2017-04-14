@@ -71,15 +71,21 @@ table {
 
 .itemBox1,
 .itemBox2,
-.itemBox3,
-.itemBox4 {
+.itemBox3 {
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: center; }
   .itemBox1:hover,
   .itemBox2:hover,
-  .itemBox3:hover,
+  .itemBox3:hover {
+    opacity: .4; }
+
+.itemBox4 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center; }
   .itemBox4:hover {
     opacity: .4; }
 
